@@ -1,0 +1,30 @@
+body {
+  background-color: antiquewhite;
+}
+a {
+  color:#007a7c;  text-decoration:none;
+}
+id {
+  width: 80%; margin:auto;
+}
+table {
+  width:100%;
+}
+h2.section_name{
+  text-align:left;
+  font-style:italic;
+}
+
+td.left, td.left h2, td.left h1 {
+  text-align:left; margin-left:10px;
+}
+
+td.right, td.right h2, td.right h3 {
+  text-align:right;margin-right:10px;
+}
+th, td {
+  padding: 15px;
+}
+#footer {
+  text-align:center; width:100%;
+}
