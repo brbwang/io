@@ -38,7 +38,32 @@ background-color: chocolate;
 p{
     font-size:1.3em;
 }
-#footer{
-    text-align:center;
-    padding-top:2%;
+div#detail {
+text-align:center;
+font-size:1.5em;
+width:80%;
+margin:auto;
+}
+
+#detail h2 {
+color:gold;
+font-size:2em;
+}
+
+#detail img {
+float:right;
+padding-left:2%;
+}
+
+#caption {
+color:white;
+width:100%;
+text-align:left;
+}
+
+#footer {
+clear:both;
+text-align:center;
+color:gold;
+padding-top:"2%"
 }
