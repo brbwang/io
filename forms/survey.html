@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="utf-8">
+    <title>Music Survey</title>
+    <style>
+      div{
+        padding: 5px;
+      }
+      body {
+      font-size: 1.3em;
+      background-color: beige;
+      }
+      content{
+      width:90%;
+      margin:auto;
+      }
+      h1 {
+      text-align:center;
+      }
+      form {
+      margin-left:5%;
+      }
+      input {
+      margin-bottom:2%;
+      }
+      input#submit {
+      display:block;
+      background-color:#33ff99;
+      font-weight:bold;
+      padding: 20px;
+      font-size: 1.5em;
+      }
+      select option {
+      font-size: 1.75em;
+      width: 150px;
+      }
+      .scrollabletextbox {
+      width:250px;
+      overflow:scroll;
+      }
+    </style>
+ </head>
+
+ <body>
+   <div>
+
+     <h1>Music Survey</h1>
+     <form action = "https://idesstage2.bc.edu/class/results.php" method="post">
+       <div>First Name:<input type="text" name="First Name"></div>
+       <div>Last Name:<input type="text" name="Last Name"></div>
+       <div>Email:<input type="email" name="Email"></div>
+       <div>Favorite Genre:</div>
+       <div><input type="radio" name="Genre" value="Rock">Rock</div>
+       <div><input type="radio" name="Genre" value="Pop">Pop</div>
+       <div><input type="radio" name="Genre" value="Rap">Rap</div>
+       <div><input type="radio" name="Genre" value="Classical">Classical</div>
+       <div><input type="radio" name="Genre" value="Indie">Indie</div>
+       <div>Where do you listen to music most often:<select name="Location">
+        <option value="At Home">At Home</option>
+        <option value="On the go">On the go</option>
+        <option value="At Work">At Work</option>
+       </select></div>
+       <div>What role does music play in your life:<input type="text" class="scrollabletextbox" name="Life"></div>
+       <div>Submit:<input type="submit" value="GO" style="background-color:lightgreen;color:white;"></div>
+
+     </form>
+   </div>
+ </body>
+</html>
