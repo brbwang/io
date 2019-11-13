@@ -5,7 +5,7 @@
     <title>Music Survey</title>
     <style>
       div{
-        padding: 5px;
+        padding: 4px;
       }
       body {
       font-size: 1.3em;
@@ -36,7 +36,6 @@
       width: 150px;
       }
       .scrollabletextbox {
-      width:250px;
       overflow:scroll;
       }
     </style>
@@ -50,18 +49,29 @@
        <div>First Name:<input type="text" name="First Name"></div>
        <div>Last Name:<input type="text" name="Last Name"></div>
        <div>Email:<input type="email" name="Email"></div>
+       <div><fieldset>
        <div>Favorite Genre:</div>
        <div><input type="radio" name="Genre" value="Rock">Rock</div>
        <div><input type="radio" name="Genre" value="Pop">Pop</div>
        <div><input type="radio" name="Genre" value="Rap">Rap</div>
        <div><input type="radio" name="Genre" value="Classical">Classical</div>
        <div><input type="radio" name="Genre" value="Indie">Indie</div>
+       </fieldset></div>
+       <div><fieldset>
+         How do you listen to music?<br><br>
+         <input type="checkbox" name="way1" value="Digitally">Digital Copy (mp3)<br>
+         <input type="checkbox" name="way2" value="Streaming">Streaming<br>
+         <input type="checkbox" name="way3" value="Physical Copy">CD or Record
+       </fieldset></div>
        <div>Where do you listen to music most often:<select name="Location">
         <option value="At Home">At Home</option>
         <option value="On the go">On the go</option>
         <option value="At Work">At Work</option>
        </select></div>
-       <div>What role does music play in your life:<input type="text" class="scrollabletextbox" name="Life"></div>
+       <div>What role does music play in your life:
+         <!-- <input type="text" name="Life" class="scrollabletextbox" rows="3" cols="60"> -->
+         <textarea name="Life" class="scrollabletextbox" rows="3" cols="60"></textarea>
+       </div>
        <div>Submit:<input type="submit" value="GO" style="background-color:lightgreen;color:white;"></div>
 
      </form>
