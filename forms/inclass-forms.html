@@ -35,14 +35,26 @@
       padding: 20px;
       }
     </style>
+    <script>
+      function myConfirmation(){
+        var name=document.getElementById("name").value;
+        window.alert("Hey " + name + ", you've really done it now, you are going to be redirected to a sketchy site!");
+        return;
+      }
+
+      function myPageLoad(){
+        alert("this is my special javascript message for my users");
+        return;
+      }
+    </script>
  </head>
 
- <body>
+ <body onload="myPageLoad()">
    <div>
 
      <h1>Test Form</h1>
-     <form action = "https://idesstage2.bc.edu/class/results.php" method="post">
-       <div>First Name:<input type="text" name="First Name"></div>
+     <form action = "https://idesstage2.bc.edu/class/results.php" method="post" onsubmit="return myConfirmation();">
+       <div>First Name:<input type="text" name="First Name" id="name"></div>
        <div>Last Name:<input type="text" name="Last Name"></div>
        <div>Email:<input type="email" name="Email"></div>
        <div>Favorite Ice Cream:</div>
