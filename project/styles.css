@@ -50,7 +50,7 @@ body{
     vertical-align: top;
     width: 100%;
     background-color: #333969;
-    width:100%;height:100px;
+    width:100%;height:25%;
 
     display:inline-block;
     *display:inline;zoom:1;
@@ -59,7 +59,7 @@ body{
     outline:none;
 }
 .h ul {
-    width:100%;height:80px;
+    width:100%;height:22%;
 
     list-style-type: none;
     text-align: center;
@@ -70,8 +70,8 @@ body{
 }
 .h li{
 
-    width:30%;height:80px;
-    padding: 16px;
+    width:30%;height:22%;
+    padding: 1%;
     margin: 0px;
     display:inline-block;
     text-align: center;
