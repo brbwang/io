@@ -16,23 +16,26 @@ body{
     vertical-align: top;
     width: 100%;
     background-color: #ABCDEF;
-    width:30px;height:30px;
+    width:100%;height:40px;
     border:blue 1px solid;
     display:inline-block;
     *display:inline;zoom:1;
     margin:0px;outline:none;
 }
 .row ul {
+    width:100%;height:40px;
+    vertical-align: top;
     list-style-type: none;
     text-align: center;
     padding: 0px;
     zoom:1;
-    border:1px solid red;
     overflow: hidden;
 }
 .row li{
+    vertical-align: top;
+    width:20%;height:40px;
     padding: auto;
-    width: 150px;
+    border:blue 1px solid;
     display:inline-block;
     text-align: center;
 }
