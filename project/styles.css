@@ -15,9 +15,12 @@ body{
 .row {
     vertical-align: top;
     width: 100%;
-    margin-left: auto ;
-    margin-right: auto ;
     background-color: #ABCDEF;
+    width:30px;height:30px;
+    border:blue 1px solid;
+    display:inline-block;
+    *display:inline;zoom:1;
+    margin:0px;outline:none;
 }
 .row ul {
     list-style-type: none;
