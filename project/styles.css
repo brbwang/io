@@ -89,6 +89,17 @@ body{
 }
 .topic li { padding: 0px; }
 .topic li a { margin: 0px; display: block; width: 100%; height: 100%; }
+
+#feedback {
+    background-color: #333969;
+    width:100%;height:400px;
+    font-size: 1.4em;
+    display:inline-block;
+    *display:inline;zoom:1;
+    padding: 5px;
+    margin: 5px;
+    outline:none;
+}
 #banner h1{
     font:trebuchet;font-size:6em; padding-top:10%;
     color:chocolate; text-shadow:2px 2px 4px #000000;
